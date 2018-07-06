@@ -186,12 +186,12 @@
 		</dependency>
 		
 		<!-- jdbc driver -->
-		<dependency>
+		<!--<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.driver.version}</version>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc14</artifactId>
@@ -199,12 +199,12 @@
 			<scope>system</scope>
 			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/ojdbc14-10.2.0.4.0.jar</systemPath>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>net.sourceforge.jtds</groupId>
 			<artifactId>jtds</artifactId>
 			<version>${mssql.driver.version}</version>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
 		<!-- PERSISTENCE end -->
 		
 		<!-- WEB begin -->
